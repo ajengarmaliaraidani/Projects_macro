@@ -7,29 +7,98 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="fas/css/all.min.css">
     <title>BMI Calculator</title>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
     <nav>
         <a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
 
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="">Menu</a></li>
-            <li><a href="">Journey</a></li>
-            <li><a href="">Community</a></li>
-            <li><a href="">About</a></li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="menu">Menu</a></li>
+            <li><a href="journey.html">Journey</a></li>
+            <li><a href="com.html">Community</a></li>
+            <li><a href="about.html">About</a></li>
         </ul>
         <a href="profile.html"><button type="button" class="btn btn-outline-success user"><i class="fa-solid fa-user"></i></button></a>
     </nav>
 
+    <section class="section-bmi">
+        <div class="container">
+            <br><br><br>
+            <h2>BMI Calculator!</h2>
+            <h5>Ideal body weight also indicates a healthy body condition</h5>
+            <img src="img/cal.png" alt="">
+        </div>
+    </section>
+
+    <section class="section-cal">
+        <form>
+            <div class="container"><br>
+                
+                <div class="row">
+                    <div class="col-5">
+                        <div class="mb-3">
+                            <label for="weight" class="form-label">Weight</label> <button class="bform">KG</button>
+                            <input type="text" class="form-control">
+                            
+                        </div>
+                    </div>
+                    <div class="col-5">
+                        <div class="mb-3">
+                            <label for="height" class="form-label">Height</label> <button class="bform">CM</button>
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-5">
+                        <div class="mb-3">
+                            <label for="weight" class="form-label">Age</label> <button class="bform">Y</button>
+                            <input type="text" class="form-control">
+                            
+                        </div>
+                    </div>
+                    <div class="col-5">
+                        <div class="mb-3">
+                            <label for="height" class="form-label">Goal</label> <button class="bform">KG</button>
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <!-- <button type="button" class="btn btn-outline-success hitung" id="hitung">Count BMI</button> -->
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-outline-success hitung" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Count BMI
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                        <p>hai</p>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+          </form>
+    </section>
     <section class="section-footer">
         <div class="container">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="">Menu</a></li>
-                <li><a href="">Journey</a></li>
-                <li><a href="">Community</a></li>
-                <li><a href="">About</a></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="menu">Menu</a></li>
+                <li><a href="journey.html">Journey</a></li>
+                <li><a href="com.html">Community</a></li>
+                <li><a href="about.html">About</a></li>
             </ul>
             <hr style="color: #CEDEBD;margin-top: -15px;">
             <div class="fbawah">
@@ -41,5 +110,22 @@
             </div>
         </div>
     </section>
+    <!-- <script src="index.js"></script> -->
+    <!-- <script src="dist/sweetalert2.all.min.js"></script>
+
+    <script>
+      const hitung = document.getElementById('hitung');
+      hitung.addEventListener('click', function(){
+        Swal.fire({
+        title: '<strong>Your BMI is<br> 17.6</strong>', 
+        html:
+            'Make sure your calorie intake matches your daily calorie needs & consume healthy foods',
+        showCloseButton: true,
+        
+        
+        })
+      }) 
+    </script> -->
+    
 </body>
 </html>
