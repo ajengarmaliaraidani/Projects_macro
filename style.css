@@ -64,7 +64,7 @@ a {
 }
 .section-header {
     background-color: #CEDEBD;
-    height:  500px;
+    height: 350px;
     font-family: Montserrat;
 }
 .section-header h2 {
@@ -75,7 +75,6 @@ a {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-top: 8%;
 }
 .section-header h5 {
     color: #000;
@@ -314,7 +313,7 @@ button.btn.btn-outline-success.ex:hover{
     margin-top: -236px;
 }
 
-        /*home.html*/
+/*home.html*/
 button.btn.btn-outline-success.user {
     width: 60px;
     height: 40px;
@@ -449,13 +448,31 @@ button.btn.btn-outline-success.user:hover{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-bottom: 2%;
+}
+.section-com img{
+    margin-right: 5%;
+}
+h5.username {
+    display: contents;
+}
+p.content {
+    margin-left: 18%;
+}
+.section-com .col-3 {
+    border-radius: 20px;
+    padding-top: 10px;
+    border: 3px solid #435334;
+    width: 30%;
+    margin-left: 2%;
+    /* height: 133px; */
 }
 
 /* about.html */
 
 .section-about {
     background-color: #CEDEBD;
-    height: 550px;
+    height: 350px;
     font-family: Montserrat;
 }
 .section-about h2 {
@@ -467,7 +484,6 @@ button.btn.btn-outline-success.user:hover{
     font-weight: 700;
     line-height: normal;
     padding-top: 4%;
-    margin-top: 8%;
 }
 .section-about h5 {
     color: #000;
@@ -477,7 +493,6 @@ button.btn.btn-outline-success.user:hover{
     font-weight: 400;
     line-height: normal;
     margin-left: 3%;
-    margin-top: 2%;
 }
 .section-about img {
     width: 30%;
@@ -557,3 +572,85 @@ button.btn.btn-outline-success.user:hover{
     text-align: center;
     font-weight: 700;    
 }
+
+/* bmi.html */
+.section-bmi {
+    background-color: #CEDEBD;
+    height: 350px;
+    font-family: Montserrat;
+}
+.section-bmi h2 {
+    color: #000;
+    margin-left: 12%;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 4%;
+}
+.section-bmi h5 {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 5%;
+}
+.section-bmi img {
+    width: 30%;
+    margin-top: -10%;
+    margin-left: 63%;
+}
+.section-cal .col-5{
+    margin: 2%
+}
+label.form-label {
+    color: #435334;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+}
+input.form-control {
+    border-radius: 10px;
+    border: 3px solid #435334;
+    margin-top: 3%;
+}
+button.btn.btn-outline-success.hitung {
+    width: 350px;
+    height: 45px;
+    color: #435334;
+    border-color: #435334;
+    border-radius: 20px;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 1%;
+    margin-left: 30%;
+    margin-bottom: 2%;
+}
+button.btn.btn-outline-success.hitung:hover {
+    background-color:#435334;
+    color:#CEDEBD;
+}
+button.bform {
+    background-color: #9EB384;
+    border: none;
+    width: 15%;
+    height: 35px;
+    border-radius: 10px;
+    margin-left: 60%;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+    
