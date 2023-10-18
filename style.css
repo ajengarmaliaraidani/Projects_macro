@@ -681,3 +681,67 @@ button.bform2 {
 .progress-bar.progress-bar-danger {
     background-color: red;
 }
+
+/*menu.html*/
+.section-menu {
+    background-color: white;
+    height: 200px;
+    font-family: Montserrat;
+  }
+  .section-menu h2 {
+    display: flex;
+    justify-content: center;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 5%;
+  }
+  .section-food {
+    width: auto;
+    height: 345px;
+    background: #9eb384;
+    margin: 3%;
+    padding: 4%;
+    padding-top: 1%;
+  }
+  .p-2 h3 {
+    color: #fff;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .section-food .row {
+    margin-left: 0%;
+    margin-right: 3%;
+  }
+  .section-food .col {
+    background-color: #faf1e4;
+    border-radius: 20px;
+    margin-left: 50px;
+    width: 17%;
+    height: 30%;
+  }
+  .picture {
+    width: 50%;
+    height: 50%;
+    padding: 20px;
+    display: flex;
+    margin-left: 18%;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  picture img {
+    width: 100%;
+  }
+  .detail p {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 500;
+  }
+  .col:hover {
+    transform: scale(1.03);
+  }
